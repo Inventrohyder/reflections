@@ -1,0 +1,105 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff program helped in pinpointing where the old code differed from the
+    new code.
+    Due to the fact that the old code ran well unlike the new code meant that
+    the new code introduced a bug.
+   	The code being about a 1000 lines long would be time consuming and difficult
+   	to check by hand (or rather by human).
+    Employing the benefits of the computer, using the diff command or the FC
+    really made it easy to find the bug (from the differences between the files).
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would help you see the achievements you made from before or the bugs that
+    you had from before. Seeing the change that is going through you as well
+    helps to make you understand yourself better and to understand what you have
+    been doing too.
+    Having the easy access to those old files helps at a time when you make a
+    big blunder that spoils your code or something you are working on. Instead
+    of agonizing you get a chance of just checking your previous versions and
+    restoring them.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros
+   		Committing manually ensures, if judgment call is used, that each commit is
+    a logical change to the document.
+    	Manual commits make it easier when comparing old versions of the file. The
+    difference between each version would be easy to notice and understand. This
+    can also lead to much more efficient and easier debugging.
+
+    The cons
+		  Sometimes, one can fail or forget to make a commit and may therefore loose
+    the change that they made. Or it may lead to the rest of the team getting
+    hindered from continuing with their work due to you forgetting to make the
+    commit in time.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files   in one commit, while others, like Google Docs, treat each file separately?
+
+      (Docs)Some may be concerned about the bandwidth or storage used to save
+    all those multiple files all over again together while some have no changes
+    made to them.
+      (Git)Some may constantly be used together with related files like coding
+    files_e.g. HTML, CSS and JS files_ hence to ensure a logical and a good
+    version-control structure, all the files are saved together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    To view the history of the files you have, it would be better to start by
+    using the command "git log". Reason being getting to remmember the long 
+    commit ids is not always a good idea. 
+    Therefore, first step is to 'cd' into the folder that contains your
+    version-control. Remember this is done in the git bash or terminal.
+    Then, you send the 'git log' command by typing it exactly that way.
+    NOTE: This is from the standpoint that you have already cloned your git
+    to your computer.
+    After running that command you will see all the different commits made.
+    Scroll down to the ones you want to "git diff" amd copy their commit ids.
+    To send this diff command you type 'git diff (commit_id1) (commit_id2)'. Do
+    not put the brackets. This will show you the differences between the two
+    files' commit ids you chose.
+    To make the output much more clear and easy to notice type the following
+    command: "git config --global color.ui auto"
+    This command would make the output for diff be that added lines are green
+    and deleted lines are read. It would not be just for this git or this 
+    particular terminal session but for all that will come after it.
+
+    The commands mentioned above are not input with the double quotes and/or the
+    single quotes shown with them.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Having something that already works would make you confident to try out
+    something new although it may break the whole program. You always have a 
+    contingancy plan of going back to versions of your work that work.
+    Much like having a backup. Only that now it is called version control.
+    You will not be scared anymore to try out something new.
+    Trying something new; when what you find is good, it is really good and
+    will help you. However, if it is bad, it is really bad and may cause great
+    harm.
+    Curiosity is what has driven humans to what they are today. Trying new 
+    things and seeing what they do. Analyzing our findings and making sense
+    of them. Though, what you do not know may be awfully dangerous like 
+    radioactivity with Marie Curie. Her curiosity was fascinating as well as
+    her discoveries. But the same is what killed her.
+    Having a reassurance that our projects would not cause as much harm
+    gives us more confidence to pursue the unknown because we are secured 
+    and sure that if anything bad happens we can always go back to what 
+    worked and remain safe.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to save almost all my projects with the git version-control.
+    Also, I want to have them stored on github so that I can access them at any
+    moment and from anywhere.
+    I do hope though that I do not have limited storage for my projects.
+    That is the main thing I want to do.
+    Neither do I think or feel that I should use github for non-programming or
+    may be stuff that are not project based.
