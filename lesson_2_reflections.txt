@@ -31,6 +31,12 @@ organized? How would branches help?
 	Branches can also be used to create different versions of your project.
 
 How do the diagrams help you visualize the branch structure?
+	The diagrams help in seeing the flow of each commits' parents. It helps in
+	understanding where the position of each branch is.
+	For instance it helped me to know that a branch is not the whole line but it
+	is a specific commit that is called that branch's name.
+	Checking out a branch and running git log would then provide all relevant
+	commits that were made before.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
