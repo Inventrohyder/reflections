@@ -17,6 +17,10 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	You need to compare the files that are in you have staged with the most
+	recent commit. This is done using the command "git diff --staged". Analyze
+	the output of this command to ensure that the changes made represent a 
+	single logical change. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
