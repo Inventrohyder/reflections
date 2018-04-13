@@ -40,6 +40,20 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The result of merging two branches is the formation of a single branch
+	whereby the previous commits of the previous two branches are arranged by
+	their timestamps.
+	We represent it as if two rail tracks are merging to form one rail track in
+	diagram. This is to show that at a certain point the single rail divided or
+	branched out to different directions. Each went an independent length of 
+	distance; developing at different rates. However, further down the road,
+	the two tracks get to merge once more it one track.
+	The diagram is a bit different from what actually happens, though it gets 
+	to show the different rates of development each track underwent and the 
+	ability they have to merge once more.
+	However, in the actual repository, both of the two tracks merge to form one
+	track and not just at a point further down the road but through the whole 
+	distance they one not one.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
