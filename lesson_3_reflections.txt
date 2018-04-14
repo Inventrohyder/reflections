@@ -9,7 +9,11 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    When done automatically, there are higher chances of introducing bugs. The
+    pros and cons are more similar to committing manually or automatically 
+    saving. This also includes the problems that may occur due to limited 
+    internet connections in parts of the world. The constant updating through
+    the internet may use up ones bandwidth a lot; making it inconvenient.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
