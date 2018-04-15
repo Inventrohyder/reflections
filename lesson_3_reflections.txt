@@ -45,7 +45,19 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without git or github I would personally may be use google drive to
+    collaborate because it is the other thing that I know that can allow
+    sharing of files. Although there is also one drive and stuff like 
+    dropbox. However, there are other methods I have heard of like 
+    subversion, mercurial, etc. Also there are sites like bitbucket, e.t.c.
+    Though if we have to not use any form of version-control, then we will
+    have to use flashdisks and stuff to have each person create their part
+    then we bring it to compare our changes and collaborate on a single 
+    project.
+    Using a good form of version-control like git with github makes it
+    way much easier and this is much more simpler. Using flashdisks in this
+    scenario is what is hardest.
+    Git and github are way much better.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
